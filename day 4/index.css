@@ -1,0 +1,32 @@
+
+.card {
+  margin-bottom: 10px; 
+  text-align: center;
+  background-color: #e5e5e5; /* White background for cards */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px;
+  overflow: hidden;
+}
+
+
+
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 15px;
+}
+
+.textsearch {
+  padding-left: 130px;
+  padding-top: 35px;
+  padding-bottom: 45px;
+}
+
+#search {
+  border-radius: 2px;
+  border-color: black;
+  height: 40px;
+  width: 400px;
+}
